@@ -1,0 +1,304 @@
+
+
+/* navbar */
+
+/* laptop navbar */
+
+@media (min-width: 1028px) {
+
+  .mobile {
+  display: none;
+  }
+
+  .mid {
+    margin: 0 20px 0 20px;
+  }
+
+  #navbar {
+    text-align: center;
+    padding: 40px 10px 10px 10px;
+
+  }
+
+  .nav-bar-brand {
+    height: 2.5rem;
+  }
+
+  .nav-bar-brand .img1 {
+    height: 2.45rem;
+    padding-bottom: .5rem;
+  }
+
+  .nav-bar-item {
+    margin-left: 9%;
+    margin-right: 9%;
+  }
+
+  .item3 {
+    margin-left: 2%;
+    margin-right: 12%;
+  }
+
+  #navbar .fas {
+    visibility: hidden;
+  }
+
+  #navbar .nav-bar-item:hover {
+    text-decoration: underline;
+    text-decoration-color: #3ABA25;
+    color: black;
+  }
+
+  #navbar .nav-bar-item {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    color: black;
+    font-size: 2rem;
+    text-decoration: none;
+  }
+
+  #navbar a {
+    font-family: Playfair Display;
+    font-style: normal;
+  }
+}
+
+/* mobile navbar */
+
+@media (max-width: 1028px) {
+
+  .head-plant{
+    margin-top: 70px;
+  }
+
+  #rating .col-lg-4 {
+    margin: 5%;
+  }
+  #rating .card {
+      padding: 2% 5%;
+      margin: auto;
+    }
+
+.topnav {
+  margin: auto;
+}
+  .laptop {
+    display: none;
+  }
+  /* Style the navigation menu */
+  .topnav {
+    background-color: #3ABA25;
+    text-align: center;
+    margin-right: 0;
+    border-right: 0;
+  }
+
+  .topnav img {
+    width: 30%;
+  }
+
+  .topnav .logo {
+    width: 9%;
+    padding-bottom: 1%;
+  }
+
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 200%;
+    display: block;
+  }
+
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    display: block;
+    position: absolute;
+    font-size: 400%;
+    right: 0;
+    top:-23px;
+  }
+
+
+  .topnav a:hover {
+    color: white;
+  }
+
+  .active {
+    background-color: #3ABA25;
+  }
+
+  .leaf {
+    display: none;
+  }
+
+  .mid {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 10%;
+  }
+
+}
+
+
+/* buttons */
+
+.btns {
+  color: white;
+  border: none;
+  border-radius: 9px;
+  font-size: 30px;
+  background: #3ABA25;
+  padding: 3px 20px 3px 20px;
+  text-decoration: none;
+}
+
+.btns:hover {
+  background-color: #154e0d;
+  color: white;
+}
+
+.top-container {
+  margin: 0;
+  text-align: center;
+  padding: 4% 10% 5% 15%;
+  background-image: linear-gradient(to bottom, #9BF034, #73F03D,#70DC41,#61C933, #57B52E,#50B525);
+}
+
+.top-container h1 {
+  padding: 2%;
+  color: green;
+  font-size: 500%;
+  font-family: 'Mochiy Pop One', sans-serif;
+}
+
+.top-container h3 {
+  font-size: 230%;
+  position: relative;
+  top: 20%;
+  font-family: 'Mochiy Pop One', sans-serif;
+}
+.download-button {
+  margin: 5% 1% 5% 1%;
+  position: relative;
+  top: 15%;
+  padding: 5%;
+
+}
+
+.head-plant {
+  width: 70%;
+}
+
+
+.col-lg-3 {
+  margin: 1%;
+  padding-bottom: 5%;
+}
+
+
+/* features */
+#features {
+  padding: 7% 15%  7% 15%;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+}
+
+#features .fas {
+  color: #3ABA25;
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+
+#features .fas:hover {
+  color: #154e0d;
+}
+
+
+#features p {
+  color: #8f8f8f;
+  font-weight: bold;
+}
+
+/* steps */
+
+#steps {
+  text-align: center;
+  background-color: #90ee90;
+}
+
+#steps h2 {
+  margin: 4%;
+  font-size: 300%;
+  font-family: 'Mochiy Pop One', sans-serif;
+  line-height: 1.5;
+}
+
+#steps .steps {
+  width: 60%;
+}
+
+#steps .carousel-item {
+  padding: 7% 15%;
+}
+
+/* rating */
+
+#rating {
+  padding: 100px;
+  text-align: center;
+}
+
+#rating h2 {
+  color: black;
+  font-size: 300%;
+}
+
+#rating h3 {
+  color: black;
+  font-size: 250%;
+}
+
+#rating p {
+  font-size: 120%;
+}
+
+#rating .heading {
+  padding-bottom: 5%;
+}
+
+.stars {
+  width: 70%;
+}
+
+.card {
+  padding: 10%;
+  margin: auto;
+}
+
+/* footer */
+
+#footer {
+  text-align: center;
+  padding: 2% 0;
+  background-color: #3ABA25;
+}
+
+#footer .fas {
+  font-size: 100%;
+  padding: 1%;
+  color: #262626;
+}
+
+#footer .fab {
+  padding: 1%;
+}

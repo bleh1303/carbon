@@ -1,0 +1,305 @@
+
+@media (min-width: 1028px) {
+
+  .mobile {
+  display: none;
+  }
+
+  .mid {
+    margin: 0 20px 0 20px;
+  }
+
+  #navbar {
+    overflow: hidden;
+    text-align: center;
+    margin: 40px 10px 0 10px;
+    padding: 4px;
+  }
+
+  .nav-bar-brand {
+    height: 2.5rem;
+  }
+
+  .nav-bar-brand .img1 {
+    height: 2.45rem;
+    padding-bottom: .5rem;
+  }
+
+  .nav-bar-item {
+    margin-left: 9%;
+    margin-right: 9%;
+  }
+
+  .item3 {
+    margin-left: 2%;
+    margin-right: 12%;
+  }
+
+  .fas {
+    visibility: hidden;
+  }
+
+  #navbar .nav-bar-item:hover {
+    text-decoration: underline;
+    text-decoration-color: #3ABA25;
+    color: black;
+  }
+
+  #navbar .nav-bar-item {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    color: black;
+    font-size: 2rem;
+    text-decoration: none;
+  }
+
+  #navbar a {
+    font-family: Playfair Display;
+    font-style: normal;
+  }
+}
+
+/* mobile navbar */
+
+@media (max-width: 1028px) {
+
+.topnav {
+  margin: auto;
+}
+  .laptop {
+    display: none;
+  }
+  /* Style the navigation menu */
+  .topnav {
+    background-color: #3ABA25;
+    text-align: center;
+    margin-right: 0;
+    border-right: 0;
+  }
+
+  .topnav img {
+    width: 30%;
+  }
+
+  .topnav .logo {
+    width: 9%;
+    padding-bottom: 1%;
+  }
+
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 200%;
+    display: block;
+  }
+
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    display: block;
+    position: absolute;
+    font-size: 400%;
+    right: 0;
+    top:-23px;
+  }
+
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    color: white;
+  }
+
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #3ABA25;
+  }
+
+  .leaf {
+    display: none;
+  }
+
+  .mid {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 10%;
+  }
+
+}
+
+/* buttons */
+
+.btns {
+  color: white;
+  border: none;
+  border-radius: 9px;
+  font-size: 30px;
+  background: #3ABA25;
+  padding: 3px 20px 3px 20px;
+  text-decoration: none;
+}
+
+.btns:hover {
+  background-color: #154e0d;
+  color: white;
+}
+
+section{
+  width: 90%;
+  margin: auto;
+}
+
+.text1{
+  margin: 7% 4.5% 2%  4.5%;
+  text-align: center;
+  font-family:  Roboto;
+  font-size: 1.7vw; /*120*/
+}
+
+.heading1{
+  margin: 0 4.5% 2% 4.5%;
+  text-align: center;
+  font-family:'Playfair Display', serif;
+  font-size: 3.5vw;
+}
+
+.text2{
+  margin:  0 4.5% 2% 4.5%;
+  font-family:  Roboto;
+  font-size: 1.7vw;
+}
+
+.text3{
+  margin:  4% 0 4% 0;
+  padding: 3% 11% 3% 9%;
+  font-family:  Roboto;
+  text-align: center;
+  font-size: 1.9vw;
+  color: #ffffff;
+  background-color: #3CBC1D;
+}
+
+.heading2{
+  margin: 0 4.5% 2% 4.5%;
+  text-align: center;
+  font-family:'Playfair Display', serif;
+  font-size: 4vw;
+  color: #3D8210;
+}
+
+.heading3{
+  margin:  0 4.5% 1% 4.5%;
+  font-family:Roboto;
+  font-size: 1.9vw;
+}
+
+.green_head{
+  margin:  0 4.5% 0.5% 4.5%;
+  font-family:  "Roboto,medium" ;
+  font-size: 1.7vw;
+  color: #3D8210;
+  font-weight: bold;
+}
+
+.text4{
+  margin: 0 4.5% 0.5% 4.5%;
+  font-family:Roboto;
+  font-size: 1.7vw;
+}
+
+.heading4{
+  margin: 2% 2.5% 1% 2.5%;
+  text-align: center;
+  font-family:'Playfair Display', serif;
+  font-size: 3.5vw;
+  color: #3D8210;
+}
+
+li{
+  margin: 0 4.5% 0.5% 4.5%;
+  color:#3C9302;
+  font-weight: bold;
+  font-size: 1.8vw;
+}
+
+.heading5{
+  text-align: center;
+  margin: 2% 2.5% 0 2.5%;
+  font-family:'Playfair Display', serif;
+  font-size: 3.7vw;
+}
+
+.text5{
+  text-align: center;
+  margin: 1% 2.5% 2% 2.5%;
+  font-family: "Roboto";
+  font-size: 2vw;
+}
+
+ol{
+  font-family: "Roboto";
+  font-size: 1.8vw;
+  font-weight: bold;
+}
+
+.text6{
+  text-align: center;
+  margin-top: 4%;
+  margin-bottom: 1%;
+  font-family: helvetica;
+  font-size: 1.9vw;
+}
+
+.download{
+    margin-left: 45%;
+    margin-bottom: 10%;
+    border:none;
+    border-radius: 7px;
+    color: white;
+    background-color: #3CBC1D;
+    padding: 6.5px 11px 6.5px 11px;
+    font-size: 1.9vw;
+    cursor: pointer;
+    display: inline;
+    text-decoration: none;
+}
+
+.footer{
+  background-color: #3CBC1D;
+}
+
+#buttns a {
+  text-decoration: none;
+  text-decoration: #3CBC1D;
+}
+
+.footer_para1{
+  color: white;
+  font-size: 1.7vw;
+  display: inline-flex;
+  padding: 2% 1% 0 4.5%;
+  font-family: 'Inter', sans-serif;
+}
+.footer_para2{
+  color: white;
+  font-size: 1.7vw;
+  display: inline-flex;
+  font-family: 'Inter', sans-serif;
+  padding-left: 32%;
+}
+
+i{
+  color: white;
+  padding: 2% 0 1% 0.1%;
+  width:5%;
+}
+
+.fab {
+  font-size: 200%;
+}
